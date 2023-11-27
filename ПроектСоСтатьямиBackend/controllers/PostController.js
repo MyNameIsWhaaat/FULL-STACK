@@ -32,7 +32,7 @@ export const getOne = async (req, res) => {
         })
     }
 
-}
+}//Функция получения статьи
 
 export const remove = async (req, res) => {
     try{
