@@ -28,7 +28,7 @@ export const Home = () => {
 
   return (
     <>
-      <Tabs style={{ marginBottom: 15 }} value={0} aria-label="basic tabs example">
+      <Tabs style={{ marginBottom: 15 }} value={0} aria-label="basic tabs examplt">
         <Tab label="Новые" />
         <Tab label="Популярные" />
       </Tabs>
