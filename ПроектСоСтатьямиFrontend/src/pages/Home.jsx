@@ -29,7 +29,7 @@ export const Home = () => {
   return (
     <>
       <Tabs style={{ marginBottom: 15 }} value={0} aria-label="basic tabs example">
-        <Tab label="Новые" />
+        <Tab label="Новыее" />
         <Tab label="Популярные" />
       </Tabs>
       <Grid container spacing={4}>
