@@ -85,7 +85,7 @@ export const getMe = async (req, res) =>{
         const user = await UserModule.findById(req.userId);
         if(!user){
             return res.status(403).json({
-                message: 'Ошибка',
+                message: 'идите нахуй',
             });
         }
 
@@ -96,7 +96,7 @@ export const getMe = async (req, res) =>{
     }catch(err){
         console.log(err);
         return res.status(404).json({
-            message: 'Ошибка',
+            message: 'идите нахуй',
         });
     }
 };

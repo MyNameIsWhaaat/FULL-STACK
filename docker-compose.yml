@@ -1,0 +1,23 @@
+---
+services:
+  backend: 
+    image: backend
+    ports: 
+      - "4444:4444"
+    depends_on:
+      - mongo
+    environment:
+      MONGO_USER: admin
+      MONGO_PASSWORD: qmNU4phXflITEqvT
+      MONGO_DB: cluster0
+      DB_HOST: mongo
+  frontend:
+    image: frontend
+    ports: 
+      - "3000:3000" 
+  mongo:
+    container_name: mongo
+    hostname: mongo
+    image: mongo
+    ports: 
+      - "27017:27017"
