@@ -12,3 +12,5 @@ docker build . -t frontend
 cd /home/kate/project/FULL-STACK
 docker-compose build
 docker-compose up
+
+#Работа находится на localhost:3000
